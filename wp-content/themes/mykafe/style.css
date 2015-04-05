@@ -1,0 +1,303 @@
+/*
+Theme Name: mykafe
+Theme URI:
+Description: GeekHub Charity Project
+Version: 1.0
+Author: team GeekHub Charity Project Rushnyk
+Author URI:
+*/
+
+/*----------------------------------------------------------------------------------*/
+/*------------------------------RESET DEFAULT STYLES--------------------------------*/
+/*----------------------------------------------------------------------------------*/
+html,body                       { width: 100%; height:100%; }
+body                            { padding:0; margin:0; font:14px Helvetica, sans-serif; background: #d1d4c2 url('images/bg_body.png') no-repeat; background-size: 100%; color:#000; }
+div,p,a,span,em,strong,img,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,td,tr,form,fieldset,label,select,checkbox,input,textarea {
+	padding:0;
+	margin:0;
+	outline:none;
+	list-style:none;
+}
+select, input, textarea        { font-size:14px; vertical-align:middle; }
+textarea                       { vertical-align:top; }
+:focus                         { outline:none; }
+input[type=submit]             { cursor:pointer; }
+img, fieldset                  { border:0; }
+table                          { border-collapse:collapse; border-spacing:0; }
+a:link, a:visited              { font:14px Helvetica, sans-serif; color:#000; text-decoration:underline; }
+a:hover                        { text-decoration:none; }
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------DEFAULT CLASSES------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.float-r           	           { float:right !important; }
+.float-l                       { float:left !important; }
+.no-float                      { float:none !important; }
+.no-border                     { border:0 !important; }
+.no-bg                         { background:none !important; }
+.no-margin                     { margin:0 !important; }
+.no-padding                    { padding:0 !important; }
+.no-display                    { display:none !important; }
+.display                       { display:block !important; }
+.inline                        { display:inline !important; }
+.overflow                      { overflow:hidden !important; }
+.align-r                       { text-align:right !important; }
+.align-l                       { text-align:left !important; }
+.align-c                       { text-align:center !important; }
+.clear                         { clear:both; }
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------WRAPPER--------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+#wrapper {
+	overflow: hidden;
+	position:relative;
+	width: 80%;
+	padding-left: 28px;
+	margin: 0 auto;
+	background: #ffffff url('images/border.png') no-repeat;
+	background-size:  28px 100% ;
+}
+
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------HEADER---------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+#header {
+	overflow: hidden;
+	padding: 0px 0 25px 0;
+	background-image: url('images/bg_header.png');
+	background-repeat: no-repeat;
+	background-size: 100% 260px;
+}
+.slogan{
+	display: block;
+	padding: 20px 0 10px 20px;
+	font-family: Helvetica, sans-serif;
+    font-size: 12pt;
+    font-weight: bold;
+    color: #bebba4;
+	background-color: #fff;
+}
+.name {
+	float: left;
+	width: 30%;
+	background: url('images/flowertop.png') no-repeat top left;
+}
+.name h1 a {
+    font-family: Helvetica, sans-serif;
+    font-size: 38px;
+    color: #941f1f;
+	text-decoration: none;
+}
+h1 {
+	padding: 75px 0 70px 20px;
+	background: url('images/flowerbottom.png') no-repeat bottom right;
+}
+.logo {
+	display: block;
+	float: left;
+	margin: -35px 0 0px 0;
+	box-shadow: inset #A9A9A9 0 0 40px 5px,
+                      #A9A9A9 0 0 24px 8px;
+}
+ul.menu {
+	float: left;
+    width: 20%;
+	margin: 0px 0 0 30px;
+}
+ul.menu  li {
+	padding-left: 35px;
+
+	border-bottom: solid 1px #fcf2c6;
+	background-image: url('images/marker.png');
+	background-repeat: no-repeat;
+	background-position :  center left;
+	
+
+}
+ul.menu  li a {
+	position: relative;
+  display: block;
+	padding: 10px 15px;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: bold;
+	color: #831b1b;
+	text-decoration: none;
+}
+ul.menu li.current_page_item a, ul.menu li a:hover {
+    color: #5c5c50;
+}
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------NAV------------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------CONTENT--------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+#content {
+        overflow: hidden;
+	width: 96%;
+	margin: 2%;
+	padding: 30px;
+	text-align: center;
+	box-shadow: inset #A9A9A9 0 0 40px 5px, #A9A9A9 0 0 24px 8px;
+}
+#content.home {
+	float: left;
+	width: 61%;
+        height: 640px;
+	padding: 18px;
+	text-align: left;
+}
+#content.hentry {
+	text-align: ;
+}
+
+.welcome {
+    float: left;
+    width: 90%;
+    height: 30%;
+	padding: 10px 160px 10px 30px;
+	margin: 2%;
+    background-image: url('images/coffee3.PNG');
+    background-repeat: no-repeat; 
+    background-position: center right; 
+
+}
+
+.services{
+    float: right;
+    top: 40%;
+    width: 90%;
+    height: 30%;
+	margin: 2%;
+	padding-left: 150px;
+    background-image: url('images/cake.png');
+    background-repeat: no-repeat; 
+    background-position :  bottom left;
+}
+.about {
+    float: left;
+	width: 100%;
+	height: 30%;
+	margin: 2%;
+	padding: 10px 150px 10px 50px;
+    background-image: url('images/vino.png');
+    background-repeat: no-repeat; 
+    background-position: bottom right;
+}
+#content p {
+	margin-bottom: 5px;
+	text-align: left;
+	font-size: 16px;
+	line-height: 1.5;
+
+}
+img.serv{
+	display: block;
+	float: left;
+	margin: 10px;
+}
+h2{
+	padding-bottom: 4px;
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    color: #5c5c50;
+}
+h2 span{
+    color: #941f1f;
+}
+.about ul {
+	float: left;
+}
+.about ul li{
+	margin-bottom: 4px;
+}
+.btn {
+	margin-top: 10px;
+}
+h3 a {
+	color: #941f1f;
+
+}
+h3 a:hover {
+        text-decoration: none;
+        color: #941f1f;
+}
+table {
+	width: 80%;
+	margin: 2%;
+	text-align: left;
+	font-size: 18px;
+}
+td {
+	width: 60%;
+}
+td span {
+	font-size: 16px;
+}
+ul.address {
+	float: left;
+        margin-top: 40px;
+        text-align: left;
+}
+ul.address li {
+        margin: 5px;
+        font-size: 18px;
+        color: #5c5c50;
+}
+div.about_map {
+        float: left;
+	width: 50%;
+        margin: 15px;
+}
+
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------SIDEBAR--------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+#sidebar {
+	overflow: hidden;
+	float: left;
+	width: 31%;
+	height: 640px;
+	margin: 2%;
+	padding: 15px;
+	box-shadow: inset #A9A9A9 0 0 40px 5px,
+                #A9A9A9 0 0 24px 8px;
+}
+#sidebar h2 span{
+	display: block;
+	margin-bottom: 10px;
+    text-align: center;
+}
+#sidebar img.food{
+	display: block;
+	float: left;
+	width: 130px;
+	height: 130px;
+    margin: 0px 15px 15px 0px;
+}
+#sidebar p {
+	margin-left: 10px;
+	margin: 10px;
+}
+#sidebar p a {
+    font-size: 14px;
+    color: #5c5c50;
+}
+.map {
+	overflow: hidden;
+	padding: 8px;
+}
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------FOOTER---------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+#footer {
+	clear: both;
+    width: 100%;   
+    border-top: solid 1px #a8a8a8; 
+    text-align: center;
+	margin-top: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #c1c1bb;
+}
